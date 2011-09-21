@@ -1,9 +1,9 @@
 div.zoomed {
   zoom: 50%;
-  -moz-transform: scale(50%);
+  -moz-transform: scale(0.5);
 }
 
-#preso { margin-top: 20px; }
+#preso { margin-top: 20px; left: -256px; top: -192px; }
 
 #main h2 { 
   text-align: left;
@@ -24,7 +24,7 @@ div.zoomed {
 }
 
 #preview {
-  min-height: 430px;
+  height: 430px;
   background: #777;
 }
 
